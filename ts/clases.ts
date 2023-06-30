@@ -1,16 +1,33 @@
 class Paciente {
-    private nombre: string;
-    private apellido: string;
-    private dni: string;
-    private numeroHC: string;
-    private fechaNacimiento: string;
-  
-    public constructor(name: string, surname: string) {
-      this.nombre = name;
-      this.apellido = surname;
+    nombrePaciente: string;
+    apellidoPaciente: string;
+    dniPaciente: number;
+    numeroHcPaciente: number;
+    constructor(nombrePaciente, apellidoPaciente, dniPaciente, numeroHcPaciente) {
+        this.nombrePaciente = nombrePaciente;
+        this.apellidoPaciente = apellidoPaciente;
+        this.dniPaciente = dniPaciente;
+        this.numeroHcPaciente = numeroHcPaciente;
+
     }
-  
-    public getName(): string {
-      return this.nombre;
+    getPrice() {
+
     }
-  }
+}
+
+class Pacientexd {
+    nombrePaciente: string;
+    apellidoPaciente: string;
+    dniPaciente: number;
+    numeroHcPaciente: number;
+    constructor(nombrePaciente, apellidoPaciente, dniPaciente, numeroHcPaciente) {
+        this.nombrePaciente = nombrePaciente;
+        this.apellidoPaciente = apellidoPaciente;
+        this.dniPaciente = dniPaciente;
+        this.numeroHcPaciente = numeroHcPaciente;
+
+    }
+    getPrice() {
+
+    }
+}
