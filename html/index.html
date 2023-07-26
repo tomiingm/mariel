@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Show Second Radio Tag</title>
+  <script>
+    function showSecondRadio() {
+      var firstRadio = document.getElementById("firstRadio");
+      var secondRadioContainer = document.getElementById("secondRadioContainer");
+      
+      if (firstRadio.checked) {
+        secondRadioContainer.style.display = "block";
+      } else {
+        secondRadioContainer.style.display = "none";
+      }
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <label>
+      <input type="radio" name="firstRadio" id="firstRadio" onclick="showSecondRadio()"> First Choice
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="firstRadio"> Second Choice
+    </label>
+    <br>
+    
+    <div id="secondRadioContainer" style="display: none;">
+      <label>
+        <input type="radio" name="secondRadio"> Second Radio Tag
+      </label>
+      <br>
+    </div>
+  </form>
+</body>
+</html>
