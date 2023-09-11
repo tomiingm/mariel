@@ -1,62 +1,78 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="canonical" href="https://html5-templates.com/" />
     <title>APP MARIEL</title>
-    <meta name="description" content="Simple HTML5 Page layout template with header, footer, sidebar etc.">
-    <link rel="stylesheet" href="pruebaEstilo.css">
-    <link rel="stylesheet" href="C:\Users\tomas\OneDrive\Documentos\GitHub\mariel\css\bootstrap.css">
-    <script src="C:\Users\tomas\OneDrive\Documentos\GitHub\mariel\ts\bootstrap.bundle.js"></script>
-</head>
+    <meta
+      name="description"
+      content="Simple HTML5 Page layout template with header, footer, sidebar etc."
+    />
+    <link rel="stylesheet" href="../css/pruebaEstilo.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+  </head>
 
-<body onload="resetSelection()">
-	<header>
-		<div id="logo"><img src="https://st2.depositphotos.com/3390741/6203/v/600/depositphotos_62039657-stock-illustration-newborn-little-baby.jpg">Pacientes&nbsp;NEO</div>
-		<nav>  
-			<ul>
-				<li><a href="/">Mis Pacientes</a>
-			</ul>
-		</nav>
-	</header>
-	<section>
-		<strong>Registrar Egreso de Paciente "tal"</strong>
-	</section>
-	<section id="pageContent">
-		<main>
-			<form action="/action_page.php">
-                <!--Registrar fecha de hoy-->
-                <!--Registrar id de egreso-->
-                <label for="pesoEgreso">Peso actual (gramos):</label>
-                <input type="text" id="pesoEgreso" name="pesoEgreso"><br><br>
-                <label for="talla">Talla (centimetros):</label>
-                <input type="text" id="talla" name="talla"><br><br>
-                <label for="perimetroCefalico">Perimetro Cefálico (centimetros):</label>
-                <input type="text" id="perimetroCefalico" name="perimetroCefalico"><br><br>
-                <label for="lugarDeEgreso">Lugar De Egreso:</label>
-                <select name="lugarDeEgreso" id="lugarDeEgreso">
-                <option value="" disabled selected>Elija Lugar de Egreso</option>  
-                <option value="suDomicilio">Su Domicilio</option>
-                <option value="UTIP">UTIP</option>
-                <option value="pediatria">Pediatría</option>
-                <option value="internacionConjunta">Sala de Internación Conjunta</option>
-                <option value="internacionDomiciliaria">Internación Domiciliaria</option>
-                <!--Diagnosticos CIE 10-->
-                </select><br><br>
-                <input type="submit" value="Enviar">
-              </form>
-        </main>
-	</section>
-	<footer>
-		<p>:D</p>
-		<address>
-			Contact: <a href="mailto:tomasgigli@yahoo.com.ar">Mail me</a>
-		</address>
-	</footer>
+  <body onload="resetSelection()">
+    <header>
+      <div id="logo">
+        <img
+          src="https://st2.depositphotos.com/3390741/6203/v/600/depositphotos_62039657-stock-illustration-newborn-little-baby.jpg"
+        />Pacientes&nbsp;NEO
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">Mis Pacientes</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <strong>Registrar Egreso de Paciente "tal"</strong>
+    </section>
+    <section id="pageContent">
+      <main>
+        <form action="/action_page.php">
+          <!--Registrar fecha de hoy-->
+          <!--Registrar id de egreso-->
+          <label for="pesoEgreso">Peso actual (gramos):</label>
+          <input type="text" id="pesoEgreso" name="pesoEgreso" /><br /><br />
+          <label for="talla">Talla (centimetros):</label>
+          <input type="text" id="talla" name="talla" /><br /><br />
+          <label for="perimetroCefalico"
+            >Perimetro Cefálico (centimetros):</label
+          >
+          <input
+            type="text"
+            id="perimetroCefalico"
+            name="perimetroCefalico"
+          /><br /><br />
+          <label for="lugarDeEgreso">Lugar De Egreso:</label>
+          <select name="lugarDeEgreso" id="lugarDeEgreso">
+            <option value="" disabled selected>Elija Lugar de Egreso</option>
+            <option value="suDomicilio">Su Domicilio</option>
+            <option value="UTIP">UTIP</option>
+            <option value="pediatria">Pediatría</option>
+            <option value="internacionConjunta">
+              Sala de Internación Conjunta
+            </option>
+            <option value="internacionDomiciliaria">
+              Internación Domiciliaria
+            </option>
+            <!--Diagnosticos CIE 10--></select
+          ><br /><br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </main>
+    </section>
+    <footer>
+      <p>:D</p>
+      <address>
+        Contact: <a href="mailto:tomasgigli@yahoo.com.ar">Mail me</a>
+      </address>
+    </footer>
 
-
-</body>
-
+    <script src="ts/bootstrap.bundle.js"></script>
+    <script src="ts/scripts.js"></script>
+  </body>
 </html>
