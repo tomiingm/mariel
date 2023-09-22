@@ -18,7 +18,7 @@ export class Paciente {
     reanimado : boolean;
     maniobrasReanimacion : ManiobraReanimacion[];
     pezquizas : Pezquiza[];
-    otrosTratamientos : OtroTratamiento[]
+    otrosTratamientos : OtroTratamiento[];
     vacunas : Vacuna[]
 
     constructor(nombrePaciente, apellidoPaciente, dniPaciente, numeroHcPaciente, fechaNacimiento, pesoNacimiento, tallaNacimiento, perimetroCefalico, edadGestacionalNacimiento, minutosLigaduraDeCordon, reanimado) {

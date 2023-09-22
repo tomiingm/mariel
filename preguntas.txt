@@ -1,11 +1,11 @@
-Los datos del recien nacido son opcionales
-Hay algo que pueda o deba ser ingresado en algun momento independiente de los pacientes, ingresos, egresos, vacunas
-Que tipos de estadisticas van a ser necesitadas
-Bosquejo de interfaz de la aplicacion
-Numero HC? Para buscar por ejemplo
-Fecha de nacimiento tiene que ser ingresada (La hora debe ser ingresada, pero puede ser opcional)
-La fecha de ingreso tiene que tener hora y minuto.
+Pagina de estadisticas
 
-Funcionalidad:
-Cuantos ingresos en total hubieron en un periodo determinado. (Tantos ingresos de tantos pacientes y tantos egresos de cada paciente) (De donde provenian, numero y porcentajes)(Lo mismo con lugar de internacion)(Agregar capacidad de mostrar porcentajes con rangos de edad al ingreso)(Ingresa valores de edad al ingreso y filtra)(La edad al ingreso puede ser entre dos horas o entre dos dias)
-De todos los ingresos, conocer
+-Primero que nada se elige el lugar de internacion
+
+Cantidad de pacientes internados en cada lugar de internacion
+DE ELLOS, 5 vinieron de tal lugar, 10 de tal
+DE ELLOS, con que edad ingresaron (si la edad de ingreso es mayor a 1 dia, interesa la edad en dias. si la edad de ingreso es menor a 1 dia, interesa la edad en horas)
+
+
+Para cada ingreso registrar la opcion de "morbilidad materna" y la opcion de "sin datos". Lo mismo con drogas maternas. Y en "Otros" dar la opcion de ingresar por teclado, luego
+a la hora de de calcular las estadisticas que figuren como "Otros"

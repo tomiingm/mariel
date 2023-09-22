@@ -23,7 +23,7 @@
       </div>
       <nav>
         <ul>
-          <li><a href="/">Mis Pacientes</a></li>
+          <li><a href="../html/paginaPrincipal.html">Inicio</a></li>
         </ul>
       </nav>
     </header>
@@ -90,11 +90,55 @@
               <p>Agregar Maniobra de Reanimación</p>
             </div>
             <div class="col">
-              <button type="button" class="btn btn-outline-primary btn-sm">
+              <button
+                type="button"
+                class="btn btn-outline-primary btn-sm"
+                id="showHtmlButton"
+              >
                 +
               </button>
             </div>
           </div>
+          <div class="row">
+            <div class="form-floating col-sm-4">
+              <input class="form-control" id="peso_nacimiento" />
+              <label for="nombre_paciente">Peso de Nacimiento (gr)</label>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="form-floating col-sm-4">
+              <input
+                class="form-control container-fluid"
+                id="talla_nacimiento"
+              />
+              <label for="nombre_paciente">Talla de Nacimiento (cm)</label>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="form-floating col-sm-4">
+              <input class="form-control" id="perimetro_cefalico" />
+              <label for="nombre_paciente">Perimetro Cefalico (cm)</label>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="form-floating col-sm-8">
+              <input class="form-control" id="edad_gestacional" />
+              <label for="nombre_paciente"
+                >Edad Gestacional del Nacimiento (23 a 42 semanas)</label
+              >
+            </div>
+          </div>
+          <br />
+          <a href="../html/misDRN.html">
+            <input
+              class="btn btn-primary"
+              type="button"
+              value="Guardar"
+              onclick="guardarDRNPaciente()" /><br
+          /></a>
         </form>
       </main>
     </section>

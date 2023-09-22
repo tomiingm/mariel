@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css/bootstrap.css" />
   </head>
 
-  <body onload="resetSelection()">
+  <body>
     <header>
       <div id="logo">
         <img
@@ -23,7 +23,7 @@
       </div>
       <nav>
         <ul>
-          <li><a href="/">Mis Pacientes</a></li>
+          <li><a href="../html/paginaPrincipal.html">Inicio</a></li>
         </ul>
       </nav>
     </header>
@@ -32,7 +32,7 @@
     </section>
     <section id="pageContent">
       <main>
-        <form action="/action_page.php">
+        <form>
           <p>DNI: 42959191</p>
           <br />
           <p>Sexo: Masculino</p>
@@ -43,20 +43,30 @@
       </main>
     </section>
     <aside>
-      <button type="button" class="btn btn-primary">Editar Paciente?</button
+      <button type="button" class="btn btn-primary">Editar Paciente</button
       ><br /><br />
       <a href="misDRN.html"
         ><button type="button" class="btn btn-primary">
           Datos del Recien Nacido
         </button></a
       ><br /><br />
-      <button type="button" class="btn btn-primary">Registrar Ingreso</button
-      ><br /><br />
-      <button type="button" class="btn btn-primary">Registrar Egreso</button
-      ><br /><br />
-      <button type="button" class="btn btn-warning">Registrar Óbito</button
-      ><br /><br />
-      <button type="button" class="btn btn-danger">Eliminar Paciente</button>
+      <a href="../html/registrarIngresoPaciente.html">
+        <button type="button" class="btn btn-primary">Registrar Ingreso</button
+        ><br /><br
+      /></a>
+      <a href="../html/registrarEgresoPaciente.html"
+        ><button type="button" class="btn btn-primary">Registrar Egreso</button
+        ><br /><br
+      /></a>
+      <a href="">
+        <button type="button" class="btn btn-warning">Informar Óbito</button
+        ><br /><br
+      /></a>
+      <a href="">
+        <button type="button" class="btn btn-danger">
+          Eliminar Paciente
+        </button></a
+      ><br />
     </aside>
     <footer>
       <p>:D</p>
